@@ -1,27 +1,39 @@
 {
-  "name": "frontend-template",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.4"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4"
-  }
+	"name": "frontend-template",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"create:page": "node scripts/create-page.js",
+		"create:component": "node scripts/create-component.js",
+		"create:store": "node scripts/create-store.js",
+		"create:util": "node scripts/create-util.js",
+		"create:hook": "node scripts/create-hook.js"
+	},
+	"dependencies": {
+		"clsx": "^2.0.0",
+		"lucide-react": "^0.298.0",
+		"next": "14.0.4",
+		"react": "^18",
+		"react-dom": "^18",
+		"yargs": "^17.7.2",
+		"zod": "^3.22.4",
+		"zustand": "^4.4.7"
+	},
+	"devDependencies": {
+		"@maxencebonamy/eslint-config": "^1.0.2",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"autoprefixer": "^10.4.16",
+		"eslint": "^8.56.0",
+		"eslint-config-next": "14.0.4",
+		"postcss": "^8",
+		"tailwindcss": "^3.3.7",
+		"typescript": "^5"
+	}
 }

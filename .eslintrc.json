@@ -1,3 +1,9 @@
 {
-  "extends": "next/core-web-vitals"
+	"extends": "@maxencebonamy",
+	"ignorePatterns": [
+		"scripts/**/**.js",
+		"src/lib/components/shadcnui/**/**.ts",
+		"postcss.config.js",
+		"next.config.js"
+	]
 }
