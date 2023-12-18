@@ -11,7 +11,7 @@
 This is a template for a Frontend project using the following stack:
 - Next.js (with TypeScript)
 - TailwindCSS (with CLSX)
-- ESLint
+- ESLint (using my own config)
 - LucideReact
 - Zustand
 - Zod
