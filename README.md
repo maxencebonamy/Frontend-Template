@@ -28,7 +28,6 @@ This is a template for a Frontend project using the following stack:
 > *Prerequisites:*
 > - [x] *Git must be installed on your computer. If not, <a href="https://git-scm.com/downloads" target="_blank">click here</a>.*
 > - [x] *NodeJS must be installed on your computer, if not, <a href="https://nodejs.org/" target="_blank">click here</a>.*
-> - [x] *PNPM must be installed on your computer, if not, <a href="https://pnpm.io/installation" target="_blank">click here</a>.*
 <br>
 
 1. **Clone** the repository on your computer. To do this, open a terminal in the folder of your choice and run the following command:
@@ -43,12 +42,12 @@ cd Frontend-Template
 
 3. **Install** the dependencies of the template:
 ```
-pnpm install
+npm install
 ```
 
 4. **Run** the local development server:
 ```
-pnpm dev
+npm run dev
 ```
 
 
@@ -58,27 +57,23 @@ pnpm dev
 	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/3_Features.png" width="100%" alt="Features">
 </p>
 
-### Create a page
+### Page generation
 ```
-pnpm create:page <route>
-```
-
-### Create a component
-```
-pnpm create:component <name> --type <atom|molecule|organism>
+npm run create:page <route>
 ```
 
-### Create a store
+### Component generation
 ```
-pnpm create:store <name>
+npm run create:component <name> <type>
+```
+The component type must be atom, molecule or organism.
+
+### Store generation
+```
+npm run create:store <name>
 ```
 
-### Create a util
+### Util generation
 ```
-pnpm create:util <name>
-```
-
-### Create a hook
-```
-pnpm create:hook <name>
+npm run create:util <name>
 ```
