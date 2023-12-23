@@ -57,6 +57,11 @@ npm run dev
 	<img src="https://github.com/maxencebonamy/maxencebonamy/blob/main/assets/3_Features.png" width="100%" alt="Features">
 </p>
 
+### Layout generation
+```
+npm run create:layout <route>
+```
+
 ### Page generation
 ```
 npm run create:page <route>
@@ -64,9 +69,9 @@ npm run create:page <route>
 
 ### Component generation
 ```
-npm run create:component <name> <type>
+npm run create:component <name> [type]
 ```
-The component type must be atom, molecule or organism.
+*The component type must be atom, molecule or organism.*
 
 ### Store generation
 ```
