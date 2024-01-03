@@ -29,7 +29,7 @@ export default (): void => {
 			createFolderIfNotExists(componentPath)
 
 			createFileIfNotExists(
-				path.join(componentPath, `${name}.ts`),
+				path.join(componentPath, `${name}.tsx`),
 				componentTemplate({ name, type })
 			)
 
